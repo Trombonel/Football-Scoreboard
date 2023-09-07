@@ -1,0 +1,71 @@
+body {
+    margin: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#A8DF8E, #9EB384 ,#435334);
+    font-family: 'Black Ops One', cursive;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    background-image: url(ball.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    border-radius: 20px;   
+}
+
+.table {
+    text-align: center;
+    margin: 50px 0px ;;
+    width: 150px;
+    
+}
+
+
+#timer {
+    margin-top: 10px;
+    font-size: 20px
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0px auto 20px;
+}
+
+.score {
+    margin: 0px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 80px;
+    background: linear-gradient(#C8E4B2, #7EAA92);
+    font-family: 'Black Ops One', cursive;
+}
+
+/* BTN */
+button {
+    font-family: 'Black Ops One', cursive;
+}
+
+.increase-btn {
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: red;
+    font-size: 17px;
+    background: linear-gradient(#C8E4B2, #7EAA92);
+}
+#reset-btn {
+    height: 44px;
+    margin: 140px 10px 0px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FE0000;
+    color: white;  
+}

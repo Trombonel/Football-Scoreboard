@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nova+Square&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="table">
+                <h1>HOME</h1>
+                <h2 id="home-team" class="score">0</h2>
+                <button  id= "home-btn" onclick="goalHomeTeam()" class="increase-btn">Score a goal!</button>
+            </div>
+            <div class="table">
+                <div id="timer"><span id="minutes">00</span>:<span id="seconds">00</span></div>
+                <button id="start-btn" onclick="timeStart()">Start</button>
+                <button id="reset-btn" onclick="reset()">Reset score</button>
+            </div>
+            <div class="table">
+                <h1>GUEST</h1>
+                <h2 id="guest-team" class="score">0</h2>
+                <button id="guest-btn" onclick="goalGuestTeam()" class="increase-btn">Score a goal!</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
